@@ -41,25 +41,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Sitecore.Kernel">
-      <HintPath>..\packages\SC.Sitecore.Kernel.9.0.1\lib\Sitecore.Kernel.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
+    
     <Reference Include="System" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Web" />
-    <Reference Include="System.Xml" />
-    <Reference Include="System.Configuration" />
+    
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\zzz\Sitecore.Support.95393.config" />
+    <Content Include="sitecore\shell\Controls\Rich Text Editor\RichText Commands.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="web.config" />
+	<None Include="bin\Sitecore.Support.95393.dll" />
+	<None Include="bin\Sitecore.Support.95393.pdb" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
